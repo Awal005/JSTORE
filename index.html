@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSTOR Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h4>Have library access? <a href="#">Log in through your library</a></h4>
+        <hr>
+    </header>
+
+    <main>
+        <section class="sub-header">
+            <div class="page-header">
+                <div class="jstor">
+                    <img src="media/jstor.png" alt="">
+                    <br>
+                    <span>JSTOR</span>
+                </div>
+
+                <div class="hamburger">
+                    &nbsp;
+                </div>
+                <div class="proposals">
+                    <div class="prop-opt">
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                        <button class="reg">Register</button>
+                        <button class="log">Log in</button>
+                    </div>
+                    <div class="prop-nav">
+                        <span>Advanced Search</span>
+                        <div>
+                            <img src="media/bookmark.png" alt="">
+                            <span>Workspace</span>
+                        </div>
+                        <span>Browse &dtrif;</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <article>
+            <div class="page-content">
+                <h1>Explore the world's knowledge, cultures, and ideas </h1>
+            </div>
+            
+            <div class="box-container">
+                <div class="advanced-search">
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                        <button class="content">All Content</button>
+                        <button class="images">Images</button>
+                    </div>
+        
+                    <a href="#">Advanced Search</a>
+                </div>
+                <div class="searchbar">
+                    <input type="text" placeholder="Georgia O’Keeffe, Ghost Ranch Landscape">
+                    
+                    <img src="media/search-icon.png" alt="">
+                </div>
+            </div>
+        </article>
+
+        <section>
+            <div class="image" style="transition: 0.3s ease-in-out;">
+                <img id="carousel-img1" src="media/landscape1.png" alt="">
+            </div>
+            <div class="image-txt">
+                <div class="txt">
+                    <small style="text-align: left;" id="image-description">Georgia O'Keeffe, Ghost Ranch Landscape (detail), c. 1936. Part of <a href="#">Georgia O'Keeffe Museum</a></small>
+                </div>
+
+
+                <div class="image-nav">
+                    <h4>Image <span id="current-image-index">1</span> of 5</h4>
+                    
+                    <button id="backward-btn">‹</button> <!-- &lt; -->
+
+                    <button id="forward-btn">›</button> <!-- &gt; -->
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="collections">
+                <div class="collection-visuals">
+                    <div class="collectionleft">
+                        <div class="collectionll" style="margin: 10px;">
+                            <img src="media/collection1.png" alt="" width="100%" height="95%">
+                            <img src="media/collection3.png" alt="" width="80%" height="100%" style="margin-left: 27px; margin-top: 7px;">
+                            <img src="media/collection6.png" alt="" width="40%" height="70%" style="margin-left: 82px; margin-top: 12px;">
+                        </div>
+                        <div class="collectionrr">
+                            <img src="media/collection2.png" alt="" width="90%" height="85%" style="margin-bottom: 8px;">
+                            <div class="collectionrrlower">
+                                <img src="media/collection4 .png" alt="" width="38%" height="100%" style="margin-bottom: 10px;">
+                                <img src="media/collection5 .png" alt="" width="60%" height="60%" style="margin-bottom: 37px;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-details">
+                    <div class="collectionright">
+                        <div class="collectiondetailheader">
+                            Enrich your research with primary sources   
+                        </div>
+                        <div class="collectiondetailbody">
+                            <small>Explore millions of high-quality primary sources and images from around the world, including artworks, maps, photographs, and more.</small>
+                        </div>
+                        <div class="collectionbutton">
+                            <button>Browse by collection</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="immigration-section">
+                <div class="immigration-container">
+                    <div class="large-text">
+                        Take an interdisciplinary approach to <b>immigration</b>
+                    </div>
+                    <div class="small-text">
+                        <small>Explore migration issues through a variety of media types</small>
+                    </div>
+
+                    <div class="mediatypes">
+                        <button>&lt;</button>
+                            <div class="imt">
+                                <div class="contentbox">
+                                    <img src="media/media1.png" alt="">
+                                    <div class="contentext">
+                                        <span class="title">IMAGE</span>
+                                        <br>
+                                        <small><b>Catherine Tedford, "Abolish ICE, Jes...</b></small> 
+                                        <span><small>part of <a href="#">The streets are Talking; Public Forms of creative expression from Around the World</a></small></span>
+                                    </div>
+                                </div>
+                                <div class="contentbox">
+                                    <img src="media/media2.png" alt="">
+                                    <span class="title">ARTICLE</span>
+                                    <br>
+                                    <small><b>The Labour Market Integration of...</b></small>
+                                    <span><small>part of <a href="#">The Journal of Economic</a></small></span>
+                                    <small><a href="#">Perspectives, Vol. 34, No. 1(Winter 2020)</a></small>
+                                </div>
+                                <div class="contentbox">
+                                    <img src="media/media3.png" alt="">
+                                    <span class="title">RESEARCH REPORT</span>
+                                    <br>
+                                    <small><b>A Brief History of U.S Immigration...</b></small>
+                                    <small>part of Cato Institute (August, 3, 2021)</small>
+                                </div>
+                                <div class="contentbox">
+                                    <img src="media/media4.png" alt="">
+                                    <span class="title">BOOK</span>
+                                    <br>
+                                    <small><b>Protect, Serve, and Deport:, The Rise...</b></small>
+                                    <small>part of <a href="#">The University of California Press</a></small>
+                                </div>
+                                <div class="contentbox">
+                                    <img src="media/media5.png" alt="">
+                                    <span class="title">IMAGE</span>
+                                    <br>
+                                    <small><b>Handwritten posters from the 2017...</b></small>
+                                    <span><small>Part of <a href="#">Open: Smithsonian National Museum of African American History & Culture</a></small></span>
+                                </div>
+                            </div>
+                        <button>&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="research">
+                <div class="headertxt">
+                    Broaden your research with images and primary sources
+                </div>
+                <div class="researchcontainer">
+                    <div class="container">
+                        <img src="media/work-with-images.png" alt="">
+                        Bring your work to life with images
+                        <br>
+                        <small><a href="#">harness the power visual materials-explore more than 3 million images now on JSTOR</a></small>
+                        <br>
+                        <button>Search for images</button>
+                    </div>
+                    <div class="container">
+                        <img src="media/alternative-press.png" alt="">
+                        Incorporate alternative choices in your research
+                        <br>
+                        <small><a href="#">Enhance your scholarly research with underground newspapers, magazines, and journals</a></small>
+                        <br>
+                        <button>Browse Independent Voices</button>
+                    </div>
+                    <div class="container">
+                        <img src="media/artstor-images.png" alt="">
+                        Take your research further with Artstor's 3+ million images
+                        <br>
+                        <small><a href="#">Explore collections in the art sciences, and literature from the world's leading museums, archieve, and scholars.</a></small>
+                        <br>
+                        <button>Search Artstor's collection</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="footer">
+                <div class="left">
+                    <div class="footer-header">
+                        Explore JSTOR
+                    </div>
+                    <div class="connect">
+                        <div class="cont">
+                            <div class="contheader">
+                                ABOUT US
+                                <br>
+                                <br>
+                            </div>
+                            About JSTOR
+                            <br> 
+                            Mission and 
+                            <br>
+                            History
+                            <br> 
+                            JSTOR Labs
+                            <br>
+                            JSTOR Daily
+                            <br>
+                            News
+                            <br>
+                            Webiners
+                            <br>
+                            Careers 
+                        </div>
+                        <div class="cont">
+                            <div class="contheader">
+                                EXPLORE
+                                <br> 
+                                CONTENT
+                            </div>
+                            <br>
+                            What's in JSTOR 
+                            <br>
+                            Advanced Search
+                            <br>
+                            By Subject
+                            <br>
+                            By Title
+                            <br>
+                            Collections
+                            <br>
+                            Publishers
+                            <br>
+                            Images
+                        </div>
+                        <div class="cont">
+                            <div class="contentheader">
+                                RESEARCH
+                                <br>
+                                TOOLS
+                            </div>
+                            <br>
+                            <br>
+                            Data for research
+                            <br>
+                            Text Analyzer
+                            <br>
+                            The JSTOR
+                            <br>
+                            Understanding
+                            <br>
+                            Series
+                            <br>
+                            Constellate
+                        </div>
+                        <div class="cont">
+                            <div class="contentheader">
+                                HELP CENTER
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            GET Support
+                            <br>
+                            GET Access
+                            <br>
+                            LibGuides
+                            <br>
+                            Research Basics
+                            <br>
+                            Contact Us
+                        </div>
+
+                        <div class="button">
+                            <button>For Liberians</button>
+                            <button>For Publishers</button>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-lower">
+                        <span>Terms & Conditions of use</span>
+                        <span>Privacy Policy</span>
+                        <span>Accessibility</span>
+                        <span>Cookie Policy</span>
+                        <span>Cookie Settings</span>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="medialink">
+                        <img src="media/twitter.png" alt="">
+                        <img src="media/facebook.png" alt="">
+                        <img src="media/instagram.png" alt="">
+                        <img src="media/youtube.png" alt="">
+                        <img src="media/in.png" alt="">
+                        <img src="media/t.png" alt="">
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+
+                    <div class="mediatext">
+                        JSTOR is part of <a href="#">ITHAKA,</a> a not-for-profit profit organization helping the academic community use digital technologies to preserve the scholarly record and to advance research and teaching in sustainable ways.
+                        <br>
+                        <br>
+                        2000-2024 ITHAKA. All Rights Reserved. JSTOR, the JSTOR logo, JPASS, Artstor's, Reveal Digital and ITHAKA are registered trademarks of ITHAKA.
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    
+<script src="CarouselJS.js"></script>
+</body>
+</html>
